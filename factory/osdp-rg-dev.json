@@ -1,0 +1,9 @@
+{
+	"name": "osdp-rg-dev",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0069664d-aecc-4672-a6e6-424d83334921",
+		"tenantId": "5dc5ac18-5593-4f9f-b88f-d814910cd18f"
+	}
+}
