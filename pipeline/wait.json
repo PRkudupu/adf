@@ -13,6 +13,22 @@
 						"type": "Expression"
 					}
 				}
+			},
+			{
+				"name": "Wait 2",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "wait",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
 			}
 		],
 		"parameters": {
